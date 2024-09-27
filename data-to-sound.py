@@ -1,7 +1,7 @@
 import binascii
 import pyaudio
 
-a = open('/home/ian/Python-programs/modem/testy_mcTest.txt', 'rb')
+a = open('img/firefox-logo.png', 'rb')
 c = a.read()
 b = bin(int(binascii.hexlify(c), 16))
 
